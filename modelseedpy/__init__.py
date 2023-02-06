@@ -47,9 +47,14 @@ from modelseedpy.core import (
     FBAHelper, MSEditorAPI, MSATPCorrection, MSGapfill, MSEquation, OptlangHelper
 )
 from modelseedpy.core.exceptions import *
-
+'''
 from modelseedpy.community import (
     MSCommunity, CommunityModelSpecies, MSCompatibility, dFBAPkg, MSSmetana, MSCommPhitting,
+    MSSteadyCom, CommHelper, build_from_species_models)
+    '''
+
+from modelseedpy.community import (
+    MSCommunity, CommunityModelSpecies, MSCompatibility, MSSmetana, MSCommPhitting,
     MSSteadyCom, CommHelper, build_from_species_models)
 
 from modelseedpy.fbapkg import (
